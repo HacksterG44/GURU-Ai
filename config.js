@@ -24,9 +24,9 @@ global.mods = ['917605902011', '32460248586']
 global.allowed = ['917605902011', '32460248586', '19152999993']
 
 // Sticker WM
-global.botname = process.env.BOTNAME
-global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
+global.botname = process.env.Glithcy_Bot
+global.packname = 'Glitch☠️'
+global.author = 'Dominic'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 // Status indicators
@@ -37,8 +37,8 @@ global.done = '✅'
 global.error = '❌'
 global.xmoji = '🔥'
 
-global.multiplier = 69
-global.maxwarn = '3'
+global.multiplier = 100
+global.maxwarn = '4'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
